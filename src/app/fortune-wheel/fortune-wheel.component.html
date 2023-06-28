@@ -1,0 +1,5 @@
+<div class="wheel-container">
+    <div class="wheel" [style.transform]="'rotate(' + rotation + 'deg)'">
+        <div class="sector" *ngFor="let sector of sectors; let i = index" [style.background]="sector.color" [style.transform]="'rotate(' + (360 / sectors.length * i) + 'deg)'"></div>
+    </div>
+</div>
