@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SimpleComponent } from './simple/simple.component';
 import { FortuneWheelComponent } from './fortune-wheel/fortune-wheel.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SimpleComponent,
-    FortuneWheelComponent
+    FortuneWheelComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
