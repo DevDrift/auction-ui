@@ -1,6 +1,7 @@
 {
   "name": "auction-plugin-ui",
   "version": "0.0.0",
+  "homepage": "https://devdrift.github.io/auction-ui",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
