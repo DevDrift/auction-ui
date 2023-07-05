@@ -5,6 +5,7 @@ import {FortuneWheelComponent} from "./fortune-wheel/fortune-wheel.component";
 
 const routes: Routes = [
     {path: '', redirectTo: '/simple', pathMatch: 'full'},
+    {path: '**', redirectTo: '/simple' },
     {path: 'simple', component: SimpleComponent},
     {path: 'fortune', component: FortuneWheelComponent},
 ];

@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --base-href 'https://devdrift.github.io/auction-ui/'",
+    "build": "ng build --base-href 'https://devdrift.github.io/auction-ui'",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
