@@ -36,7 +36,7 @@ export class SimpleComponent implements OnInit {
     }
 
     private connect() {
-        this.socket = new WebSocket('ws://localhost:9999/auction');
+        this.socket = new WebSocket('ws://localhost:10000/auction');
         this.socket.onopen = () => {
             console.log('Connected to server');
         };
@@ -59,8 +59,8 @@ export class SimpleComponent implements OnInit {
     private loadDefaultData() {
         this.liveData = {
             time: "10:00",
-            coins: "100",
-            username: "deema_k",
+            rewardCost: "100",
+            userName: "deema_k",
         }
     }
 

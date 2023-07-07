@@ -8,9 +8,9 @@
         </g>
         <g id="values">
             <text *ngIf="liveData?.username != ''" id="username" fill="#6441A5" xml:space="preserve" style="white-space: pre" font-family="Inter"
-                  font-size="50" font-weight="bold" letter-spacing="0em"><tspan x="1427.76" y="178.682">{{liveData.username}}</tspan></text>
+                  font-size="50" font-weight="bold" letter-spacing="0em"><tspan x="1427.76" y="178.682">{{liveData.userName}}</tspan></text>
             <text *ngIf="liveData?.coins != ''" id="coin-value" fill="#6441A5" xml:space="preserve" style="white-space: pre" font-family="Inter"
-                  font-size="85" font-weight="bold" letter-spacing="0em"><tspan x="770" y="196.409">{{liveData.coins}}</tspan></text>
+                  font-size="85" font-weight="bold" letter-spacing="0em"><tspan x="770" y="196.409">{{liveData.rewardCost}}</tspan></text>
             <text *ngIf="liveData?.time != ''" id="time-value" fill="#5B28BB" fill-opacity="0.9" xml:space="preserve" style="white-space: pre"
                   font-family="Inter" font-size="85" font-weight="bold" letter-spacing="0em"><tspan x="224" y="195.409">{{displayTime}}</tspan></text>
         </g>
