@@ -3,13 +3,11 @@
     <g id="auction-frame" clip-path="url(#clip0_313_2)" filter="url(#filter0_b_313_2)">
         <g *ngIf="liveData?.username != ''" id="username-group" filter="url(#filter1_di_313_2)">
             <text id="username" fill="#5438FF" stroke="white" stroke-width="3" xml:space="preserve"
-                  style="white-space: pre" font-family="Inter" font-size="100" font-weight="bold"
-                  letter-spacing="-0.025em"><tspan x="852" y="116.864">{{liveData.userName}}</tspan></text>
+                  style="white-space: pre" font-family="Acme" font-size="100" letter-spacing="0.005em"><tspan x="810" y="120.1">{{liveData.userName}}</tspan></text>
         </g>
-        <g *ngIf="liveData?.rewardCost != ''" id="coin-group" filter="url(#filter2_di_313_2)">
+        <g *ngIf="liveData?.rewardCost != ''"  id="coin-group" filter="url(#filter2_di_313_2)">
             <text id="coin-value" fill="#5438FF" stroke="white" stroke-width="3" xml:space="preserve"
-                  style="white-space: pre" font-family="Inter" font-size="100" font-weight="bold"
-                  letter-spacing="-0.025em"><tspan x="505" y="123.864">{{liveData.rewardCost}}</tspan></text>
+                  style="white-space: pre" font-family="Acme" font-size="100" letter-spacing="-0.025em"><tspan x="513" y="124.1">{{liveData.rewardCost}}</tspan></text>
         </g>
         <g id="coin-img-group">
             <mask id="mask0_313_2" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="392" y="37" width="100"
@@ -24,8 +22,7 @@
         </g>
         <g *ngIf="liveData?.time != ''" id="time-group" filter="url(#filter3_di_313_2)">
             <text id="time-value" fill="#5438FF" stroke="white" stroke-width="3" xml:space="preserve"
-                  style="white-space: pre" font-family="Inter" font-size="100" font-weight="600"
-                  letter-spacing="-0.065em"><tspan x="97" y="124.864">{{displayTime}}</tspan></text>
+                  style="white-space: pre" font-family="Acme" font-size="100" letter-spacing="0.005em"><tspan x="97" y="124.1">{{displayTime}}</tspan></text>
         </g>
     </g>
     <defs>
@@ -36,8 +33,8 @@
             <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_313_2"/>
             <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_313_2" result="shape"/>
         </filter>
-        <filter id="filter1_di_313_2" x="808.037" y="-9.88208" width="982.154" height="177.948"
-                filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+        <filter id="filter1_di_313_2" x="766.8" y="-7.3999" width="895.668" height="178.5" filterUnits="userSpaceOnUse"
+                color-interpolation-filters="sRGB">
             <feFlood flood-opacity="0" result="BackgroundImageFix"/>
             <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
                            result="hardAlpha"/>
@@ -54,8 +51,8 @@
             <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
             <feBlend mode="normal" in2="shape" result="effect2_innerShadow_313_2"/>
         </filter>
-        <filter id="filter2_di_313_2" x="460.078" y="0.27832" width="404.205" height="175.32"
-                filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+        <filter id="filter2_di_313_2" x="465" y="9" width="334.309" height="166.1" filterUnits="userSpaceOnUse"
+                color-interpolation-filters="sRGB">
             <feFlood flood-opacity="0" result="BackgroundImageFix"/>
             <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
                            result="hardAlpha"/>
@@ -75,8 +72,8 @@
         <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
             <use xlink:href="#image0_313_2" transform="scale(0.00195312)"/>
         </pattern>
-        <filter id="filter3_di_313_2" x="52.3267" y="1.27832" width="359.139" height="175.107"
-                filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+        <filter id="filter3_di_313_2" x="50" y="9.1001" width="344.995" height="166" filterUnits="userSpaceOnUse"
+                color-interpolation-filters="sRGB">
             <feFlood flood-opacity="0" result="BackgroundImageFix"/>
             <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
                            result="hardAlpha"/>
