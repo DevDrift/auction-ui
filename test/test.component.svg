@@ -1,10 +1,10 @@
 <svg width="1924" height="171" viewBox="0 0 1924 171" fill="none" xmlns="http://www.w3.org/2000/svg"
      xmlns:xlink="http://www.w3.org/1999/xlink">
     <g id="auction-frame" clip-path="url(#clip0_313_2)" filter="url(#filter0_b_313_2)">
-        <g *ngIf="liveData?.username != ''" id="username-group" filter="url(#filter1_di_313_2)">
+        <g *ngIf="liveData?.username != ''" id="username" filter="url(#filter1_di_313_2)">
             <text id="username" fill="#5438FF" stroke="white" stroke-width="3" xml:space="preserve"
-                  style="white-space: pre" font-family="Inter" font-size="100" font-weight="bold"
-                  letter-spacing="-0.025em"><tspan x="852" y="116.864">{{liveData.userName}}</tspan></text>
+                  style="white-space: pre" font-family="Inter" font-size="100" font-weight="600"
+                  letter-spacing="-0.025em"><tspan x="810" y="125">{{liveData.userName}}</tspan></text>
         </g>
         <g *ngIf="liveData?.rewardCost != ''" id="coin-group" filter="url(#filter2_di_313_2)">
             <text id="coin-value" fill="#5438FF" stroke="white" stroke-width="3" xml:space="preserve"
@@ -22,7 +22,7 @@
                 <rect id="dcoin" x="392" y="36" width="100" height="100" fill="url(#pattern0)"/>
             </g>
         </g>
-        <g *ngIf="liveData?.time != ''" id="time-group" filter="url(#filter3_di_313_2)">
+        <g *ngIf="liveData?.time != ''"  id="time-group" filter="url(#filter3_di_313_2)">
             <text id="time-value" fill="#5438FF" stroke="white" stroke-width="3" xml:space="preserve"
                   style="white-space: pre" font-family="Inter" font-size="100" font-weight="600"
                   letter-spacing="-0.065em"><tspan x="97" y="124.864">{{displayTime}}</tspan></text>
