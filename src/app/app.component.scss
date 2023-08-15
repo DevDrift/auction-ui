@@ -3,6 +3,8 @@
 svg {
   flex-shrink: 0;
   backdrop-filter: blur(15px);
+  background-color: transparent;
+  color: transparent;
 }
 
 image#image1_204_3 {
@@ -11,11 +13,11 @@ image#image1_204_3 {
   animation: fadeIn 4s infinite linear;
 }
 
-#time-value{
+#time-value {
   font-size: 110px;
 }
 
-#username{
+#username {
   font-size: 100px;
 }
 
